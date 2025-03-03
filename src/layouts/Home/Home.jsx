@@ -1,5 +1,6 @@
 import Header from "../../components/Header/Header";
 import LatestNews from "../../components/LatestNews/LatestNews";
+import LeftNavbar from "../../components/LeftNavbar/LeftNavbar";
 import NavBar from "../../components/NavBar/NavBar";
 
 const Home = () => {
@@ -17,7 +18,9 @@ const Home = () => {
         <NavBar />
       </nav>
       <main className="w-11/12 mx-auto pt-5 md:grid grid-cols-12 gap-3 ">
-        <aside className="left col-span-3">Lift Navbar</aside>
+        <aside className="left col-span-3">
+          <LeftNavbar />
+        </aside>
         <section className="col-span-6">Main Content</section>
         <aside className="col-span-3">Right Navbar</aside>
       </main>
