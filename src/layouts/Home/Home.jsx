@@ -24,7 +24,6 @@ const Home = () => {
           <LeftNavbar />
         </aside>
         <section className="col-span-6">
-          Main Content
           <Outlet />
         </section>
 
